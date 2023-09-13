@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using LojinhaServer.Models;
 using LojinhaServer.Repositories;
 using MongoDB.Driver;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace LojinhaServer.Extensions
 {

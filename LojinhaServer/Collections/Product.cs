@@ -23,23 +23,21 @@ namespace LojinhaServer.Collections
         public string Description { get; set; }
         
         [BsonElement("Price")]
-        public string Price { get; set; }
-
-        
+        public decimal Price { get; set; }
       
         [BsonElement("Categories")]
         public List<string> Categories { get; set; }
 
         
        
-        [BsonElement("OffPrice")]
-        public string OffPrice { get; set; }
+        [BsonElement("OffPrice")] //OffPrice
+        public decimal OffPrice { get; set; }
         
-        [BsonElement("Tags")]
+        [BsonElement("Tags")] //tag
         public List<string> Tags { get; set; }
 
         
-        [BsonElement("Brand")]
+        [BsonElement("Brand")] //marca
         public string Brand { get; set; }
     }
 }
